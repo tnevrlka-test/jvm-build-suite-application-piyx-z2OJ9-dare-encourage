@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tuke
+  namespace: jvm-build-sulj-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:9bbc79ac5cf7c6ba134f2c901dd7bcfc6b8159eab259ef52b35a11ee85abb08c
+        name: container-image
+        resources: {}
+status: {}
