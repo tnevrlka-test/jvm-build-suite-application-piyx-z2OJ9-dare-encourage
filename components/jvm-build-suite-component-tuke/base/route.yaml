@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-tuke
     app.kubernetes.io/part-of: jvm-build-suite-application-piyx
-  name: jvm-build-suite-componentsix1
+  name: jvm-build-suite-componentsikt
   namespace: jvm-build-sulj-tenant
 spec:
   port:
